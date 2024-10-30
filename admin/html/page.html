@@ -1,0 +1,32 @@
+<div class="wrap">
+	<div id="icon-options-general" class="icon32"><br /></div>
+	<h2>Cheatsheet</h2>
+	
+	<br />
+	
+	<div class="">
+		<div class="setting-description">These are notes that can be referenced when updating content on the website.</div>
+		
+		<br />
+		
+		<div id="cheatsheet_page">
+			<div class="setting-description"><a href="#" id="click_to_edit">Click here to edit the cheat sheet &raquo;</a></div>
+			<br />{cheatsheet.text}
+			<br />
+			<br />
+		</div>
+		
+		<div id="cheatsheet_form" style="display:none;">
+			<form name="" action="themes.php?page={page}" method="post">
+				
+				<div id="poststuff">
+					{cheatsheet.editor}
+				</div>					
+				
+				<p class="submit">
+					<input type="submit" name="submit" class="button-primary" value="Save Changes" /> or <a href="#" id="cancel_click_to_edit">cancel</a>
+				</p>
+			</form>
+		</div>
+	</div>
+</div>
